@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CC_Lab3/1.0.0": {
+        "dependencies": {
+          "GraphVizNet": "1.0.3",
+          "csdot": "2.0.1"
+        },
+        "runtime": {
+          "CC_Lab3.dll": {}
+        }
+      },
+      "csdot/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/csdot.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GraphVizNet/1.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/GraphVizNet.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CC_Lab3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "csdot/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lStsF4GyhiNI4haiMPl4oRLiwA/GiN2051lciUPFZgCyuQ/LIUh6s2XA9UqoACHiweM0KW2jf0P/0p9i++a+dQ==",
+      "path": "csdot/2.0.1",
+      "hashPath": "csdot.2.0.1.nupkg.sha512"
+    },
+    "GraphVizNet/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uKmuPJzXJ5Tgm43RT7GnrKuHTWqQInPI5A0E8V2G6vS2BOSkFsNBG3grWYULuBRv/SX62CUFUmiPoV7rkrBt0Q==",
+      "path": "graphviznet/1.0.3",
+      "hashPath": "graphviznet.1.0.3.nupkg.sha512"
+    }
+  }
+}

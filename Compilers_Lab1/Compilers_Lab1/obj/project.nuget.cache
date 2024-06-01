@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "TaWSx0UmMO1Y1W48ME3ZrmFg6mlPDDCWeTWtoNJeHnzP47zfIplJEmNE80EtsgdXN0/uiVBDfclq+t0FAuL3LA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\timur\\rsoi_lab2\\Compilers_Lab1\\Compilers_Lab1\\Compilers_Lab1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timur\\.nuget\\packages\\graphviz\\2.38.0.2\\graphviz.2.38.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Graphviz 2.38.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net6.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Graphviz",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

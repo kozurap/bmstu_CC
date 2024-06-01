@@ -1,0 +1,17 @@
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\bin\Debug\net6.0\Compilers_Lab1.exe
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\bin\Debug\net6.0\Compilers_Lab1.deps.json
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\bin\Debug\net6.0\Compilers_Lab1.runtimeconfig.json
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\bin\Debug\net6.0\Compilers_Lab1.dll
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\bin\Debug\net6.0\Compilers_Lab1.pdb
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\Compilers_Lab1.csproj.AssemblyReference.cache
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\Compilers_Lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\Compilers_Lab1.AssemblyInfoInputs.cache
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\Compilers_Lab1.AssemblyInfo.cs
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\Compilers_Lab1.csproj.CoreCompileInputs.cache
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\Compilers_Lab1.dll
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\refint\Compilers_Lab1.dll
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\Compilers_Lab1.pdb
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\Compilers_Lab1.genruntimeconfig.cache
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\ref\Compilers_Lab1.dll
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\bin\Debug\net6.0\Graphviz.dll
+C:\Users\timur\rsoi_lab2\Compilers_Lab1\Compilers_Lab1\obj\Debug\net6.0\Compilers_Lab1.csproj.CopyComplete

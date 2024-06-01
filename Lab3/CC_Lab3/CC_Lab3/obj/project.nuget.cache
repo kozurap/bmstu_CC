@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TBd3KqSox0Mrh/kkbFf7K7LS58HwmaCRJi11GE51W26OLYKmdhp/s2fol2dp/fx0rJlXOSIB9sKVru1eSRcVcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\timur\\compilers_labs\\bmstu_CC\\Lab3\\CC_Lab3\\CC_Lab3\\CC_Lab3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timur\\.nuget\\packages\\csdot\\2.0.1\\csdot.2.0.1.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\graphviznet\\1.0.3\\graphviznet.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

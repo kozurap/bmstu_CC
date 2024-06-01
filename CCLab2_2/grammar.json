@@ -1,0 +1,10 @@
+{
+    "nonterms": ["S", "A", "Z"],
+    "terms": ["a", "b", "c", "d", "eps", "f", "t", "1", "2"],
+    "productions": {
+        "S": ["Aa", "b", "f"],
+        "A": ["Ac", "d", "eps"],
+        "Z": ["A", "ZA"]
+    },
+    "start_nonterm": "S"
+}

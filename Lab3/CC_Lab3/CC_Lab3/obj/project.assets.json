@@ -1,0 +1,437 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "csdot/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/csdot.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/csdot.dll": {}
+        }
+      },
+      "GraphVizNet/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GraphVizNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphVizNet.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/graphviz/acyclic.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/acyclic.exe"
+          },
+          "contentFiles/any/any/graphviz/bcomps.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/bcomps.exe"
+          },
+          "contentFiles/any/any/graphviz/cairo.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/cairo.dll"
+          },
+          "contentFiles/any/any/graphviz/ccomps.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/ccomps.exe"
+          },
+          "contentFiles/any/any/graphviz/cdt.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/cdt.dll"
+          },
+          "contentFiles/any/any/graphviz/cgraph.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/cgraph.dll"
+          },
+          "contentFiles/any/any/graphviz/concrt140.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/concrt140.dll"
+          },
+          "contentFiles/any/any/graphviz/config6": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/config6"
+          },
+          "contentFiles/any/any/graphviz/dijkstra.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/dijkstra.exe"
+          },
+          "contentFiles/any/any/graphviz/dot.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/dot.exe"
+          },
+          "contentFiles/any/any/graphviz/expat.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/expat.dll"
+          },
+          "contentFiles/any/any/graphviz/fontconfig.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/fontconfig.dll"
+          },
+          "contentFiles/any/any/graphviz/gc.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gc.exe"
+          },
+          "contentFiles/any/any/graphviz/glib-2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/glib-2.dll"
+          },
+          "contentFiles/any/any/graphviz/gml2gv.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gml2gv.exe"
+          },
+          "contentFiles/any/any/graphviz/gobject-2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gobject-2.dll"
+          },
+          "contentFiles/any/any/graphviz/graphml2gv.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/graphml2gv.exe"
+          },
+          "contentFiles/any/any/graphviz/gvc.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvc.dll"
+          },
+          "contentFiles/any/any/graphviz/gvcolor.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvcolor.exe"
+          },
+          "contentFiles/any/any/graphviz/gvgen.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvgen.exe"
+          },
+          "contentFiles/any/any/graphviz/gvpack.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvpack.exe"
+          },
+          "contentFiles/any/any/graphviz/gvplugin_core.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvplugin_core.dll"
+          },
+          "contentFiles/any/any/graphviz/gvplugin_dot_layout.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvplugin_dot_layout.dll"
+          },
+          "contentFiles/any/any/graphviz/gvplugin_gd.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvplugin_gd.dll"
+          },
+          "contentFiles/any/any/graphviz/gvplugin_gdiplus.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvplugin_gdiplus.dll"
+          },
+          "contentFiles/any/any/graphviz/gvplugin_neato_layout.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvplugin_neato_layout.dll"
+          },
+          "contentFiles/any/any/graphviz/gvplugin_pango.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gvplugin_pango.dll"
+          },
+          "contentFiles/any/any/graphviz/gxl2gv.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/gxl2gv.exe"
+          },
+          "contentFiles/any/any/graphviz/libgd.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/libgd.dll"
+          },
+          "contentFiles/any/any/graphviz/libharfbuzz-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/libharfbuzz-0.dll"
+          },
+          "contentFiles/any/any/graphviz/mm2gv.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/mm2gv.exe"
+          },
+          "contentFiles/any/any/graphviz/msvcp140.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/msvcp140.dll"
+          },
+          "contentFiles/any/any/graphviz/nop.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/nop.exe"
+          },
+          "contentFiles/any/any/graphviz/pango-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/pango-1.dll"
+          },
+          "contentFiles/any/any/graphviz/pangocairo-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/pangocairo-1.dll"
+          },
+          "contentFiles/any/any/graphviz/pangoft2-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/pangoft2-1.dll"
+          },
+          "contentFiles/any/any/graphviz/pangowin32-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/pangowin32-1.dll"
+          },
+          "contentFiles/any/any/graphviz/pathplan.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/pathplan.dll"
+          },
+          "contentFiles/any/any/graphviz/pixman-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/pixman-1.dll"
+          },
+          "contentFiles/any/any/graphviz/sccmap.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/sccmap.exe"
+          },
+          "contentFiles/any/any/graphviz/tred.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/tred.exe"
+          },
+          "contentFiles/any/any/graphviz/unflatten.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/unflatten.exe"
+          },
+          "contentFiles/any/any/graphviz/vcruntime140.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/vcruntime140.dll"
+          },
+          "contentFiles/any/any/graphviz/xdot.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "graphviz/xdot.dll"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "csdot/2.0.1": {
+      "sha512": "lStsF4GyhiNI4haiMPl4oRLiwA/GiN2051lciUPFZgCyuQ/LIUh6s2XA9UqoACHiweM0KW2jf0P/0p9i++a+dQ==",
+      "type": "package",
+      "path": "csdot/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "csdot.2.0.1.nupkg.sha512",
+        "csdot.nuspec",
+        "lib/net461/csdot.dll",
+        "lib/netstandard2.0/csdot.dll"
+      ]
+    },
+    "GraphVizNet/1.0.3": {
+      "sha512": "uKmuPJzXJ5Tgm43RT7GnrKuHTWqQInPI5A0E8V2G6vS2BOSkFsNBG3grWYULuBRv/SX62CUFUmiPoV7rkrBt0Q==",
+      "type": "package",
+      "path": "graphviznet/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "contentFiles/any/any/graphviz/acyclic.exe",
+        "contentFiles/any/any/graphviz/bcomps.exe",
+        "contentFiles/any/any/graphviz/cairo.dll",
+        "contentFiles/any/any/graphviz/ccomps.exe",
+        "contentFiles/any/any/graphviz/cdt.dll",
+        "contentFiles/any/any/graphviz/cgraph.dll",
+        "contentFiles/any/any/graphviz/concrt140.dll",
+        "contentFiles/any/any/graphviz/config6",
+        "contentFiles/any/any/graphviz/dijkstra.exe",
+        "contentFiles/any/any/graphviz/dot.exe",
+        "contentFiles/any/any/graphviz/expat.dll",
+        "contentFiles/any/any/graphviz/fontconfig.dll",
+        "contentFiles/any/any/graphviz/gc.exe",
+        "contentFiles/any/any/graphviz/glib-2.dll",
+        "contentFiles/any/any/graphviz/gml2gv.exe",
+        "contentFiles/any/any/graphviz/gobject-2.dll",
+        "contentFiles/any/any/graphviz/graphml2gv.exe",
+        "contentFiles/any/any/graphviz/gvc.dll",
+        "contentFiles/any/any/graphviz/gvcolor.exe",
+        "contentFiles/any/any/graphviz/gvgen.exe",
+        "contentFiles/any/any/graphviz/gvpack.exe",
+        "contentFiles/any/any/graphviz/gvplugin_core.dll",
+        "contentFiles/any/any/graphviz/gvplugin_dot_layout.dll",
+        "contentFiles/any/any/graphviz/gvplugin_gd.dll",
+        "contentFiles/any/any/graphviz/gvplugin_gdiplus.dll",
+        "contentFiles/any/any/graphviz/gvplugin_neato_layout.dll",
+        "contentFiles/any/any/graphviz/gvplugin_pango.dll",
+        "contentFiles/any/any/graphviz/gxl2gv.exe",
+        "contentFiles/any/any/graphviz/libgd.dll",
+        "contentFiles/any/any/graphviz/libharfbuzz-0.dll",
+        "contentFiles/any/any/graphviz/mm2gv.exe",
+        "contentFiles/any/any/graphviz/msvcp140.dll",
+        "contentFiles/any/any/graphviz/nop.exe",
+        "contentFiles/any/any/graphviz/pango-1.dll",
+        "contentFiles/any/any/graphviz/pangocairo-1.dll",
+        "contentFiles/any/any/graphviz/pangoft2-1.dll",
+        "contentFiles/any/any/graphviz/pangowin32-1.dll",
+        "contentFiles/any/any/graphviz/pathplan.dll",
+        "contentFiles/any/any/graphviz/pixman-1.dll",
+        "contentFiles/any/any/graphviz/sccmap.exe",
+        "contentFiles/any/any/graphviz/tred.exe",
+        "contentFiles/any/any/graphviz/unflatten.exe",
+        "contentFiles/any/any/graphviz/vcruntime140.dll",
+        "contentFiles/any/any/graphviz/xdot.dll",
+        "graphviznet.1.0.3.nupkg.sha512",
+        "graphviznet.nuspec",
+        "lib/netstandard2.0/GraphVizNet.dll",
+        "lib/netstandard2.0/GraphVizNet.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "GraphVizNet >= 1.0.3",
+      "csdot >= 2.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\timur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\timur\\compilers_labs\\bmstu_CC\\Lab3\\CC_Lab3\\CC_Lab3\\CC_Lab3.csproj",
+      "projectName": "CC_Lab3",
+      "projectPath": "C:\\Users\\timur\\compilers_labs\\bmstu_CC\\Lab3\\CC_Lab3\\CC_Lab3\\CC_Lab3.csproj",
+      "packagesPath": "C:\\Users\\timur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\timur\\compilers_labs\\bmstu_CC\\Lab3\\CC_Lab3\\CC_Lab3\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\timur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "GraphVizNet": {
+            "target": "Package",
+            "version": "[1.0.3, )"
+          },
+          "csdot": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
