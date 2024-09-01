@@ -1,0 +1,16 @@
+﻿package main
+
+func fact(i int) (int) {
+	if (i <= 1) {
+		return 1
+	}
+
+	return fact(i - 1) * i
+}
+
+func Main() {
+	var i int
+	i = 5
+	i = fact(i)
+	Print(i)
+}

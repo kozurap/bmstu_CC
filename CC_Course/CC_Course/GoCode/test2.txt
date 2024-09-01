@@ -1,0 +1,6 @@
+﻿package main
+func Main() {
+	var a int
+	a = 4
+	Print(a)
+}

@@ -1,0 +1,14 @@
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\obj\Debug\net48\CC_Course.csproj.AssemblyReference.cache
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\obj\Debug\net48\CC_Course.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\obj\Debug\net48\CC_Course.AssemblyInfoInputs.cache
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\obj\Debug\net48\CC_Course.AssemblyInfo.cs
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\obj\Debug\net48\CC_Course.csproj.CoreCompileInputs.cache
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\bin\Debug\net48\CC_Course.pdb
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\bin\Debug\net48\Antlr4.Runtime.Standard.dll
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\bin\Debug\net48\RunSharp.dll
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\obj\Debug\net48\CC_Course.csproj.CopyComplete
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\obj\Debug\net48\CC_Course.pdb
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\bin\Debug\net48\CC_Course.exe.config
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\bin\Debug\net48\CC_Course.exe
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\obj\Debug\net48\CC_Course.csproj.SuggestedBindingRedirects.cache
+C:\Users\timur\compilers_labs\bmstu_CC\CC_Course\CC_Course\obj\Debug\net48\CC_Course.exe

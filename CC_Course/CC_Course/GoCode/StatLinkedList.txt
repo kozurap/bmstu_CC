@@ -1,0 +1,78 @@
+﻿package main
+
+type LinkedListNode struct {
+  _next int
+  _val int
+}
+func InitNode() (result *LinkedListNode) {
+    var res *LinkedListNode
+    return res
+}
+
+func Main() {
+  var end int
+  var size int
+  var head int
+
+  end = 404
+  size = 10
+
+
+  head = 0
+  var memory[size] LinkedListNode
+
+  var i int
+  i = 0
+  for i < size - 1 {
+    memory[i] = InitNode()
+    memory[i]._next = i + 1
+    memory[i]._val = (i + 1) * 10
+    Print("Next")
+    Print(memory[i]._next)
+    Print("Value")
+    Print(memory[i]._val)
+    i = i + 1
+  }
+  var l int
+  l = size - 1
+  memory[i] = InitNode()
+  memory[l]._next = end
+  memory[l]._val = size * 10
+  Print(memory[l]._next)
+  Print(memory[l]._val)
+
+  // reverse
+  var new_head int
+  new_head = size - 1
+  var new_memory[size] LinkedListNode
+  i = 0
+  for i < size {
+    new_memory[i] = InitNode()
+    i = i + 1
+  }
+  new_memory[new_head]._next = end
+  var new_node int
+  i = 0
+  for i < size - 1 {
+    new_memory[new_head]._val = memory[head]._val
+    
+    head = memory[head]._next
+        
+    new_node = new_head - 1
+    new_memory[new_node]._next = new_head
+    new_head = new_node
+    i = i + 1
+  }
+
+  new_memory[new_head]._val = memory[head]._val
+  memory = new_memory
+  head = new_head
+  i = 0
+  Print()
+  for i < size {
+    Print(memory[i]._next)
+    Print(memory[i]._val)
+    i = i + 1
+  }
+  
+}

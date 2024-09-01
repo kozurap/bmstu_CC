@@ -1,0 +1,65 @@
+﻿package main
+
+type Node struct {
+	next  *Node
+	value int
+}
+
+type LinkedList struct {
+	head *Node
+}
+
+func (l *LinkedList) Traverse() (tail *Node) {
+	var tail *Node
+	tail = head
+	if tail != nil {
+	for tail.next != nil {
+		tail = tail.next
+	}
+	}
+	return tail
+}
+
+func (l *LinkedList) AddLast(data int) {
+	var newNode *Node
+	newNode = head
+	var last *Node
+	newNode.value = data
+	newNode.next = nil
+	last = Traverse()
+	if last == nil {
+		last.next = newNode
+	} else {
+		head = newNode
+	}
+}
+
+func (list *LinkedList) Reverse() {
+	var node *Node
+	node = head
+	var next *Node
+	next = node.next
+	var tmp1 *Node
+	var tmp2 *Node
+	for node != nil {
+		tmp1 = node
+		tmp2 = next
+		node = node.next
+		next = tmp1
+		node.next = tmp2
+	}
+
+	head = next
+
+}
+
+func Main() {
+	var list *LinkedList
+	list.AddLast(1)
+	list.AddLast(2)
+	list.AddLast(3)
+	list.Reverse()
+	var x *Node
+	x = list.head
+	Print(x.value)
+}

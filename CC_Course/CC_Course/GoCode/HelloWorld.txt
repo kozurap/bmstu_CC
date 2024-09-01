@@ -1,0 +1,9 @@
+﻿package main
+
+func Main() {
+	var s string
+	var hi string
+	hi = "Hello"
+	Read(s)
+	Print(hi  + s)
+}

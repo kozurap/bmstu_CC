@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Antlr4.Runtime.Standard/4.13.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Antlr4.Runtime.Standard.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Antlr4.Runtime.Standard.dll": {}
+        }
+      },
+      "aqla.runsharp/1.0.23": {
+        "type": "package",
+        "compile": {
+          "lib/net35/RunSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net35/RunSharp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win7-x86": {
+      "Antlr4.Runtime.Standard/4.13.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Antlr4.Runtime.Standard.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Antlr4.Runtime.Standard.dll": {}
+        }
+      },
+      "aqla.runsharp/1.0.23": {
+        "type": "package",
+        "compile": {
+          "lib/net35/RunSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net35/RunSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Antlr4.Runtime.Standard/4.13.1": {
+      "sha512": "Da5+i4kFHUseJRZGcBG5fmZGpA/Ns180ibrQMxgZzjpQOnENVvSL5gi5HZ8Ncz8/AR2WsKbOg2lMBzjz0HUQcA==",
+      "type": "package",
+      "path": "antlr4.runtime.standard/4.13.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "antlr4.runtime.standard.4.13.1.nupkg.sha512",
+        "antlr4.runtime.standard.nuspec",
+        "lib/net45/Antlr4.Runtime.Standard.dll",
+        "lib/net45/Antlr4.Runtime.Standard.xml",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.dll",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.xml"
+      ]
+    },
+    "aqla.runsharp/1.0.23": {
+      "sha512": "IOV8l2EiKfO9zxtI5xX8kbgpsJTXMIr/c7i+2WSlHY2AxjJ1D4d61S/7uAkjpGxvMJAgCjbI0X55dl/LL/mg0A==",
+      "type": "package",
+      "path": "aqla.runsharp/1.0.23",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "aqla.runsharp.1.0.23.nupkg.sha512",
+        "aqla.runsharp.nuspec",
+        "lib/net20/RunSharp.dll",
+        "lib/net20/RunSharp.pdb",
+        "lib/net20/RunSharp.xml",
+        "lib/net35/RunSharp.dll",
+        "lib/net35/RunSharp.pdb",
+        "lib/net35/RunSharp.xml",
+        "lib/netstandard2.1/RunSharp.dll",
+        "lib/netstandard2.1/RunSharp.pdb",
+        "lib/netstandard2.1/RunSharp.xml",
+        "lib/sl5/RunSharp.XML",
+        "lib/sl5/RunSharp.dll",
+        "lib/sl5/RunSharp.dll.config",
+        "lib/sl5/RunSharp.pdb",
+        "lib/windowsphone8/RunSharp.XML",
+        "lib/windowsphone8/RunSharp.dll",
+        "lib/windowsphone8/RunSharp.dll.config",
+        "lib/windowsphone8/RunSharp.pdb"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Antlr4.Runtime.Standard >= 4.13.1",
+      "aqla.runsharp >= 1.0.23"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\timur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\timur\\compilers_labs\\bmstu_CC\\CC_Course\\CC_Course\\CC_Course.csproj",
+      "projectName": "CC_Course",
+      "projectPath": "C:\\Users\\timur\\compilers_labs\\bmstu_CC\\CC_Course\\CC_Course\\CC_Course.csproj",
+      "packagesPath": "C:\\Users\\timur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\timur\\compilers_labs\\bmstu_CC\\CC_Course\\CC_Course\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\timur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": {
+            "target": "Package",
+            "version": "[4.13.1, )"
+          },
+          "aqla.runsharp": {
+            "target": "Package",
+            "version": "[1.0.23, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
